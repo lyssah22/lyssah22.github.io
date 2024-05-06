@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Sedan+SC&display=swap');
+
+/*
+font-family: "Sedan SC", serif;
+font-family: "Nanum Gothic Coding", monospace;
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    font-size: 1.25rem;
+}
+nav {
+    padding: 5px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 1px;
+}
+nav ul li a {
+    text-decoration: none;
+    background: #D8BFD8;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background:#BC8F8F;
+    color: #fff;
+}
+main, footer{
+    padding:10px;
+}
+footer {
+    background: #BC8F8F;
+    color: #fff;
+    border-radius: 9px ;
+}
+header{
+    background: #BC8F8F;
+    padding: 2px 0;
+    height: auto;
+    background-size: cover;
+    background-position: 30%;
+    border-radius: 10px ;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Sedan SC", serif;
+}
+header h1 {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0 25px 25px 0;
+    font-family: "Sedan SC", serif;
+    font-size: 5rem;
+     color: #fff;
+     transform: translate(-60px) translateY(30px);
+}
+section{
+    background: #FFE4E1;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+section h2{
+    text-align: center;
+}
+section h2 {
+    display: flex;
+    content: "";
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main section {
+    flex: 1 1 50%;
+}
+
+main section:nth-of-type(1){
+    flex: 1 1 100%;
+}
+.imgmain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-family: "Nanum Gothic Coding", monospace;
+    color: #000;
+    text-align: left;  
+}
